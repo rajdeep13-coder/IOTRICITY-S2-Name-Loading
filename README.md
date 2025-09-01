@@ -1,4 +1,18 @@
 # ☀️ IoTricity_S2 Solar Panel Monitor
+---
+## 📝 Description  
+
+The **IoTricity Solar Panel Monitor** is a smart IoT + ML project that optimizes the energy efficiency of solar panels.  
+Using **Light Dependent Resistors (LDRs)** and **servo motors**, the system tracks the sun’s movement to adjust panel orientation.  
+
+Unlike traditional trackers, this system features a **dual approach**:  
+- **Rule-Based Local Control** → Works on Arduino logic for real-time tracking, even without internet.  
+- **Cloud-Integrated ML Control** → Sends sensor data to a **FastAPI backend** deployed on the cloud, where trained ML models predict the **optimal horizontal and vertical tilt** of the solar panels.  
+
+The project ensures **maximum energy capture** under varying light conditions, while also providing **IoT dashboard integration** for monitoring.  
+This makes it ideal for **hackathon prototyping**, **student projects**, and a foundation for **scalable smart energy solutions**.  
+
+---
 
 ![IoT](https://img.shields.io/badge/IoT-Project-blue?style=for-the-badge)
 ![Hackathon](https://img.shields.io/badge/IoTricity-S2-orange?style=for-the-badge)
