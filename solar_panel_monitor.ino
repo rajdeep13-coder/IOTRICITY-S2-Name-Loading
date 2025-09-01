@@ -1,3 +1,4 @@
+//Local control using LDR differences, servo adjustments, and sweeping in low light.
 #include <Servo.h>
 
 Servo horizontal;  // Horizontal axis servo

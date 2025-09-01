@@ -1,0 +1,27 @@
+# Environment & secrets
+.env
+secrets.h
+.venv
+
+# Python cache & virtualenv
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.venv/
+env/
+venv/
+*.egg-info/
+
+# Models
+*.joblib
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
