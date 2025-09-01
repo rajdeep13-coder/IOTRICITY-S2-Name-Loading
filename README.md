@@ -47,6 +47,11 @@ We implemented **two approaches**:
 - Sweeping fallback in low-light conditions.  
 
 ---
+## 📓 Jupyter Notebooks
+- `train_model.ipynb`: Trains the XGBoost model for predicting optimal panel angles, saves to `.joblib`.
+- `preprocessing.ipynb`: Processes LDR sensor data and visualizes panel alignment performance.
+
+---
 
 ## 🛠️ Tech Stack
 
